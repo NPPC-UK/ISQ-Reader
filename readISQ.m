@@ -60,7 +60,6 @@ if nargin<4
     progress=0;
 end
 
-image=zeros(window(2)-window(1)+1,window(4)-window(3)+1,last_slice-first_slice+1);
 if progress 
     wb=waitbar(0,'Loading image data');
 end
